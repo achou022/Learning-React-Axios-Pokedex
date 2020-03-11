@@ -3,8 +3,7 @@ import { Button } from 'reactstrap';
 
 export default ()=> {
     const [state, setState]=useState({
-        pokemons:[],
-        sprites:[]
+        pokemons:[]
     })
     const clickHandler = event => {
         event.preventDefault();
